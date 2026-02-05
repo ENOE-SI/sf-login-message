@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Message</title>
+  <meta charset="utf-8">
   <style>
-    html, body { margin: 0; padding: 0; }
-
-    /* Important: 100vh au lieu de 100% */
     body {
       font-family: Arial, sans-serif;
+      padding: 20px;
       background: transparent;
-      min-height: 100vh;
     }
-
-    /* Centrage "indépendant" de la mise en page de l’iframe */
-    .center {
-      position: fixed;         /* <- clé */
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: min(520px, 90vw); /* s'adapte au cadre */
-      box-sizing: border-box;
-    }
-
     .alert {
       border-left: 4px solid #e74c3c;
+      padding: 12px;
       background: #fdf2f2;
-      padding: 16px;
     }
-
-    h3 { margin: 0 0 8px; }
-    p  { margin: 0; line-height: 1.35; }
+    h3 {
+      margin-top: 0;
+    }
   </style>
 </head>
 <body>
